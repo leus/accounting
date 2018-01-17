@@ -1,4 +1,0 @@
-@ParametersAreNonnullByDefault
-package core.transaction;
-
-import javax.annotation.ParametersAreNonnullByDefault;

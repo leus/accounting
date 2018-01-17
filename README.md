@@ -1,7 +1,8 @@
-[![Build Status](https://travis-ci.org/Nick-Triller/accounting.svg?branch=master)](https://travis-ci.org/Nick-Triller/accounting)
+[![Build Status](https://travis-ci.org/leus/accounting.svg?branch=master)](https://travis-ci.org/leus/accounting)
 
 # Accounting
-Accounting is an in-memory double-entry bookkeeping component written in Java.
+Accounting is an in-memory double-entry bookkeeping component written in Kotlin, a direct port of Nick 
+Triller's [Accounting](https://travis-ci.org/Nick-Triller/accounting) java package. 
 
 ## Usage example
 ```Java
@@ -29,10 +30,6 @@ ledger.commitTransaction(t);
 // Print ledger
 System.out.println(ledger.toString());
 ```
-
-## Setup
-
-Accounting uses [lombok](https://projectlombok.org/) to reduce getter and setter code clutter.
 
 ## License
 

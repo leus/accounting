@@ -1,4 +1,0 @@
-@ParametersAreNonnullByDefault
-package core;
-
-import javax.annotation.ParametersAreNonnullByDefault;
